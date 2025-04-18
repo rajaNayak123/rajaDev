@@ -47,7 +47,7 @@ export default function HomeSection() {
 
       <div className="animate-in space-y-4 text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-green-400">
-          Hello, I'm <span className="text-green-300">Raja Nayak</span>
+          Hello, I&apos;m <span className="text-green-300">Raja Nayak</span>
         </h1>
         <p className="text-gray-400 text-lg">
           Full Stack Developer | Software developer | Problem Solver
@@ -59,8 +59,8 @@ export default function HomeSection() {
         <p className="mb-2 text-green-400 font-mono">$ whoami</p>
         <p>
           I build modern web applications with a focus on clean code,
-          performance, and user experience. I'm passionate about full-stack
-          development and love turning complex problems into elegant, functional
+          performance and user experience. I&apos;am passionate about full-stack
+          development and love turning complex problems into elegant functional
           solutions.
         </p>
       </div>

@@ -5,6 +5,7 @@ import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { ExternalLink, Github } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 interface Project {
   id: number
@@ -140,7 +141,7 @@ export default function Projects() {
               className="project-card bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl"
             >
               <div className="relative overflow-hidden h-60">
-                <img
+                <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
                   className="project-image w-full h-full object-cover transition-transform duration-300"

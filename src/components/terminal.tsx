@@ -12,7 +12,7 @@ import SkillsSection from "./sections/skills-section";
 import ContactSection from "./sections/contact-section";
 
 export default function Terminal() {
-  const { activeSection, commandHistory, executeCommand, output } =
+  const { activeSection, executeCommand, output } =
     useCommand();
   const [command, setCommand] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);

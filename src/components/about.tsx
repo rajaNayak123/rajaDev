@@ -5,6 +5,7 @@ import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { Button } from "@/components/ui/button"
 import { FileText } from "lucide-react"
+import Image from "next/image"
 
 export default function About() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -52,7 +53,7 @@ export default function About() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div ref={imageRef} className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl order-2 lg:order-1">
-            <img
+            <Image
               src="/placeholder.svg?height=400&width=500"
               alt="Working at desk"
               className="w-full h-full object-cover"
@@ -66,20 +67,20 @@ export default function About() {
             </h3>
 
             <p className="text-gray-700 dark:text-gray-300">
-              I'm a passionate developer who loves creating beautiful, functional, and user-friendly websites and
-              applications. With expertise in both frontend and backend technologies, I deliver complete solutions that
-              meet client needs.
+              I&apos;m a passionate developer who loves creating beautiful&lsquo; functional&lsquo; and user-friendly websites and
+              applications&rsquo; With expertise in both frontend and backend technologies&lsquo; I deliver complete solutions that
+              meet client needs&rsquo;
             </p>
 
             <p className="text-gray-700 dark:text-gray-300">
-              My journey in web development started when I built my first website at 16. Since then, I've worked with
-              startups and established companies to bring their digital visions to life.
+              My journey in web development started when I built my first website at 1&rsquo; Since then&lsquo; I&apos;ve worked with
+              startups and established companies to bring their digital visions to life&rsquo;
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Education</h4>
-                <p className="text-gray-700 dark:text-gray-300 text-sm">B.S. Computer Science, Tech University</p>
+                <p className="text-gray-700 dark:text-gray-300 text-sm">B&rsquo;S&rsquo; Computer Science&lsquo; Tech University</p>
               </div>
 
               <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md">

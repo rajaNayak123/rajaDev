@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react"
 import { gsap } from "gsap"
 import { Button } from "@/components/ui/button"
 import { ArrowDown } from "lucide-react"
+import Image from "next/image"
 
 export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -45,7 +46,7 @@ export default function Hero() {
               ref={headingRef}
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight"
             >
-              Hi, I'm <span className="text-blue-600">Raja Nayak</span>
+              Hi&lsquo; I&apos;m <span className="text-blue-600">Raja Nayak</span>
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
                 Full Stack Developer
@@ -53,7 +54,7 @@ export default function Hero() {
             </h1>
 
             <p ref={subheadingRef} className="text-xl text-gray-700 dark:text-gray-300 max-w-lg">
-              I build modern, responsive web applications with cutting-edge technologies and a focus on user experience.
+              I build modern&lsquo; responsive web applications with cutting-edge technologies and a focus on user experience&rsquo;
             </p>
 
             <div ref={ctaRef} className="flex flex-wrap gap-4">
@@ -84,18 +85,18 @@ export default function Hero() {
               </Button>
             </div>
 
-            <button
+            <Button
               onClick={scrollToAbout}
               className="flex items-center text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors mt-12 animate-bounce"
               aria-label="Scroll down"
             >
               <ArrowDown className="h-6 w-6 mr-2" />
               <span>Scroll Down</span>
-            </button>
+            </Button>
           </div>
 
           <div ref={imageRef} className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-xl">
-            <img
+            <Image
               src="/placeholder.svg?height=500&width=500"
               alt="Developer Portrait"
               className="w-full h-full object-cover"

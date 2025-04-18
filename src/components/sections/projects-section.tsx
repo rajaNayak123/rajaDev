@@ -22,7 +22,7 @@ const projects: Project[] = [
     description:
       "A full-featured online store with payment processing, user authentication, and admin dashboard.",
     technologies: ["Next.js", "Auth.js", "MongoDB", "ImageKit", "Razorpay"],
-    image: "/images/shoping.jpg",
+    image: "images/shoping.jpg",
     githubUrl: "https://github.com/rajaNayak123/sellingPlatform",
     liveUrl: "https://selling-platform.vercel.app/",
   },
@@ -41,18 +41,11 @@ const projects: Project[] = [
     title: "Anonymous Feedback Portal",
     description:
       "privacy-first feedback platform built with Next.js. It enables anonymous users to communicate safely while maintaining full control over their data. ",
-    technologies: [
-      "Next.js",
-      "NextAuth.js",
-      "Resend",
-      "MongoDB",
-      "Zod",
-      "Shadcn",
-    ],
+    technologies: ["Next.js", "NextAuth.js", "Resend", "MongoDB", "Zod", "Shadcn"],
     image: "/images/messageimg.jpg",
     githubUrl: "https://github.com/rajaNayak123/AnonymousTalk",
     liveUrl: "https://anonymous-talk.vercel.app/sign-up",
-  },
+  }
 ];
 
 export default function ProjectsSection() {
@@ -93,7 +86,7 @@ export default function ProjectsSection() {
       </div>
 
       <div className="space-y-6">
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <div
             key={project.id}
             className="animate-in bg-green-900/10 border border-green-800 rounded-lg overflow-hidden"
@@ -167,10 +160,7 @@ export default function ProjectsSection() {
       <div className="animate-in text-center text-gray-500 text-sm">
         <p>
           More projects available on my{" "}
-          <a
-            href="https://github.com/rajaNayak123"
-            className="text-green-400 hover:underline"
-          >
+          <a href="https://github.com/rajaNayak123" className="text-green-400 hover:underline">
             GitHub profile
           </a>
         </p>

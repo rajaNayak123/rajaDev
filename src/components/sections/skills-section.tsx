@@ -87,10 +87,10 @@ export default function SkillsSection() {
       </div>
 
       <div className="animate-in bg-green-900/20 border border-green-800 rounded-lg p-4 text-gray-300 mb-6">
-        <p className="mb-2 text-green-400 font-mono">$ cat skills.json</p>
+        <p className="mb-2 text-green-400 font-mono">$ cat skills&rsquo;json</p>
         <p>
-          Here's a breakdown of my technical skills and proficiency levels. I'm
-          constantly learning and adding new technologies to my toolkit.
+          Here&apos;s a breakdown of my technical skills and proficiency levels&rsquo; I&apos;m
+          constantly learning and adding new technologies to my toolkit&rsquo;
         </p>
       </div>
 

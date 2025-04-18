@@ -59,10 +59,10 @@ export default function ContactSection() {
       </div>
 
       <div className="animate-in bg-green-900/20 border border-green-800 rounded-lg p-4 text-gray-300 mb-6">
-        <p className="mb-2 text-green-400 font-mono">$ echo "Let's connect!"</p>
+        <p className="mb-2 text-green-400 font-mono">$ echo &quot;Let&apos;s connect!&quot;</p>
         <p>
           Have a project in mind or just want to chat? Feel free to reach out through the form below or via my contact
-          information.
+          information&rdquo;
         </p>
       </div>
 
@@ -75,7 +75,7 @@ export default function ContactSection() {
             <div>
               <h3 className="text-lg font-medium text-green-400">Email</h3>
               <a href="mailto:hello@example.com" className="text-gray-300 hover:text-green-400">
-                nayakraja151@gmail.com
+                nayakraja151@gmail&rdquo;com
               </a>
             </div>
           </div>
@@ -98,13 +98,13 @@ export default function ContactSection() {
             </div>
             <div>
               <h3 className="text-lg font-medium text-green-400">Location</h3>
-              <p className="text-gray-300">Gurugram, Haryana, India</p>
+              <p className="text-gray-300">Gurugram&ldquo; Haryana&ldquo; India</p>
             </div>
           </div>
 
           <div className="bg-green-900/10 border border-green-800 rounded-lg p-4">
             <h3 className="text-lg font-medium text-green-400 mb-2">Availability</h3>
-            <p className="text-gray-300">Currently available for internship opportunities and full-time opportunities.</p>
+            <p className="text-gray-300">Currently available for internship opportunities and full-time opportunities&rdquo;</p>
           </div>
         </div>
 

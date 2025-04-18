@@ -19,7 +19,7 @@ import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 export default function Sidebar() {
-  const { activeSection, setActiveSection, executeCommand } = useCommand();
+  const { activeSection, executeCommand } = useCommand();
   const { theme, setTheme } = useTheme();
   const sidebarRef = useRef<HTMLDivElement>(null);
 

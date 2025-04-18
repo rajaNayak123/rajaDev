@@ -36,16 +36,16 @@ export default function AboutSection() {
       <div className="animate-in bg-green-900/20 border border-green-800 rounded-lg p-4 text-gray-300">
         <p className="mb-2 text-green-400 font-mono">$ cat about.txt</p>
         <p className="mb-4">
-          I'm a passionate full-stack developer with a strong drive for creating
+          I&apos;m a passionate full-stack developer with a strong drive for creating
           impactful web applications. My journey in programming started after
-          completing my 12th grade, tinkering with HTML and CSS to create simple
+          completing my 12th grade tinkering with HTML and CSS to create simple
           websites. That curiosity evolved into a career where I now develop
           complex applications using modern technologies.
         </p>
         <p>
-          When I'm not coding, you can find me reading tech blogs, listening to
-          podcasts, or working out. I believe in continuous learning and pushing
-          the boundaries of what's possible with code.
+          When I&apos;m not coding, you can find me reading tech blog&lsquo;s, listening to
+          podcasts, or workout. I believe in continuous learning and pushing
+          the boundaries of what&apos;s possible with code.
         </p>
       </div>
 
@@ -82,7 +82,7 @@ export default function AboutSection() {
             <li>
               <div className="text-green-300">AI SaaS Application</div>
               <div className="text-sm text-gray-400">
-              Personal Project, Jan 2025 - Feb 2025
+              Personal Project, Jan2025 - Feb 2025
               </div>
             </li>
             <li>

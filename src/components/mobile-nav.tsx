@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import Image from "next/image";
 
 export default function MobileNav() {
   const { activeSection, executeCommand } = useCommand();
@@ -32,7 +33,7 @@ export default function MobileNav() {
   return (
     <div className="border-b border-green-800 p-4 flex items-center justify-between bg-black dark:bg-gray-900">
       <div className="flex items-center">
-        <img
+        <Image
           src="/images/rajimg.jpg"
           alt="Developer Avatar"
           className="h-8 w-8 rounded-full mr-2 border border-green-500"
@@ -57,7 +58,7 @@ export default function MobileNav() {
           <div className="flex flex-col h-full">
             <div className="p-4 border-b border-green-800">
               <div className="flex items-center justify-center mb-4">
-                <img
+                <Image
                   src="/images/rajimg.jpg"
                   alt="Developer Avatar"
                   className="h-20 w-20 rounded-full border-2 border-green-500"
