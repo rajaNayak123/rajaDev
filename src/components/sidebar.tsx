@@ -17,7 +17,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
-import Image from "next/image";
+
 export default function Sidebar() {
   const { activeSection, executeCommand } = useCommand();
   const { theme, setTheme } = useTheme();
@@ -53,7 +53,7 @@ export default function Sidebar() {
       <div>
         <div className="mb-8 text-center">
           <div className="inline-block rounded-full border-2 border-green-500 p-1 mb-4">
-            <Image
+            <img
               src="/images/rajimg.jpg"
               alt="Profile"
               className="h-24 w-24 rounded-full object-cover"
