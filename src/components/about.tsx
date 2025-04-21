@@ -88,7 +88,9 @@ export default function About() {
               </div>
             </div>
 
-            <Button className="mt-6 flex items-center gap-2">
+            <Button className="mt-6 flex items-center gap-2"
+            onClick={() => window.open("https://drive.google.com/file/d/1f0GYickFM4kY2Fm-lWlWMTjCAcowCGCE/view?usp=sharing", "_blank")}
+            >
               <FileText className="h-4 w-4" />
               Download Resume
             </Button>
