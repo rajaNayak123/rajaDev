@@ -41,7 +41,7 @@ const projects: Project[] = [
     technologies: ["Next.js", "Clerk", "MongoDB", "Cloudinary", "Tailwind CSS"],
     image: "/images/saas.jpg",
     githubUrl: "https://github.com/rajaNayak123/cloudinary-saas",
-    liveUrl: "https://anonymous-talk.vercel.app/",
+    liveUrl: "https://cloudinary-saas-self.vercel.app/sign-up",
   },
   {
     id: 3,
