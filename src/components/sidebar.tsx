@@ -66,7 +66,7 @@ export default function Sidebar() {
         <motion.div className="mb-8 text-center" variants={itemVariants}>
           <div className="inline-block rounded-full border-2 border-emerald-500 dark:border-green-500 p-1 mb-4 relative group">
             <img
-              src="/images/profileImg.jpg"
+              src="/images/rajaProfile.jpg"
               alt="Developer Avatar"
               className="h-24 w-24 rounded-full transition-transform duration-500 group-hover:scale-105"
             />

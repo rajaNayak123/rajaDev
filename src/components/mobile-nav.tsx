@@ -41,7 +41,7 @@ export default function MobileNav() {
       <div className="flex items-center">
         <div className="relative group">
           <img
-            src="/images/profileImg.jpg"
+            src="/images/rajaProfile.jpg"
             alt="Developer Avatar"
             className="h-10 w-10 rounded-full mr-3 border border-emerald-500 dark:border-green-500 transition-transform duration-300 group-hover:scale-110"
           />
