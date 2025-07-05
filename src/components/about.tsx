@@ -89,7 +89,7 @@ export default function About() {
             </div>
 
             <Button className="mt-6 flex items-center gap-2"
-            onClick={() => window.open("https://drive.google.com/file/d/1f0GYickFM4kY2Fm-lWlWMTjCAcowCGCE/view?usp=sharing", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/1cOt7yf4nIpHqT6N69YQvLA0RermCGWwf/view?usp=sharing", "_blank")}
             >
               <FileText className="h-4 w-4" />
               Download Resume

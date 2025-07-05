@@ -18,20 +18,15 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Image Marketplace",
+    title: "Bug Exchange Marketplace",
     description:
-      "A full-featured online store with payment processing, user authentication, and admin dashboard.",
+      "A modern platform where developers can post bugs with bounties and earn money by fixing them",
     technologies: [
-      "Next.js",
-      "Auth.js",
-      "MongoDB",
-      "ImageKit",
-      "Razorpay",
-      "Nodemailer",
+      "Next.js", "MongoDB", "Prisma", "NextAuth.js", "Razorpay", "shadcn", "Zod" 
     ],
-    image: "/images/shoping.jpg",
-    githubUrl: "https://github.com/rajaNayak123/sellingPlatform",
-    liveUrl: "https://selling-platform.vercel.app/",
+    image: "/images/bugimage.png",
+    githubUrl: "https://github.com/rajaNayak123/BugExchangeMarketplace",
+    liveUrl: "https://bug-exchange-marketplace.vercel.app/",
   },
   {
     id: 2,

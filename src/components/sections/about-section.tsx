@@ -163,7 +163,7 @@ export default function AboutSection() {
         <Button
           variant="outline"
           className="border-slate-300 hover:border-emerald-500 dark:border-green-800 dark:hover:border-green-600 text-slate-800 hover:text-emerald-700 dark:text-green-400 dark:hover:text-green-300 hover:bg-slate-100 dark:hover:bg-green-900/30 transition-all duration-300 group"
-          onClick={() => window.open("https://drive.google.com/file/d/1f0GYickFM4kY2Fm-lWlWMTjCAcowCGCE/view?usp=sharing", "_blank")}
+          onClick={() => window.open("https://drive.google.com/file/d/1cOt7yf4nIpHqT6N69YQvLA0RermCGWwf/view?usp=sharing", "_blank")}
         >
           <FileText className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform duration-300" />
           Download Resume
