@@ -134,7 +134,7 @@ export default function ContactSection() {
                 href="tel:+1234567890"
                 className="text-slate-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-green-300 transition-colors"
               >
-                +91 865-825-0208
+                +91 8658250208
               </a>
             </div>
           </motion.div>

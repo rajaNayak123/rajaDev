@@ -85,14 +85,6 @@ export default function AboutSection() {
                 Polaris School Of Technology, 2023-2027
               </div>
             </li>
-            <li>
-              <div className="text-emerald-600 dark:text-green-300">
-                Frontend Development Bootcamp
-              </div>
-              <div className="text-sm text-slate-500 dark:text-gray-400">
-                FunctionUP, 2023
-              </div>
-            </li>
           </ul>
         </motion.div>
 
@@ -108,18 +100,10 @@ export default function AboutSection() {
           <ul className="space-y-3 text-slate-700 dark:text-gray-300">
             <li>
               <div className="text-emerald-600 dark:text-green-300">
-              AI-powered SaaS 
+              Fullstack Developer Intern
               </div>
               <div className="text-sm text-slate-500 dark:text-gray-400">
-                Personal Project, Jan 2025 - Feb 2025
-              </div>
-            </li>
-            <li>
-              <div className="text-emerald-600 dark:text-green-300">
-              Anonymous Message Platform 
-              </div>
-              <div className="text-sm text-slate-500 dark:text-gray-400">
-              Personal Project, Dec 2024 - Feb 2025
+              Xponentium India, Onsite (Gurugram, Haryana, India) July 2025 - Present
               </div>
             </li>
           </ul>
